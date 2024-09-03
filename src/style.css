@@ -1,0 +1,26 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#root{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+} 
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+.masked{
+    background-color: #2f8d46;
+    background-image: linear-gradient(orange, yellow, red);
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.line{
+    border-bottom: 1px solid #333;
+}
