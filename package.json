@@ -1,4 +1,5 @@
 {
+  "homepage": "https://aman1011019.github.io/Happy-ganesh-chaturthi",
   "name": "apple",
   "private": true,
   "version": "0.0.0",
@@ -8,12 +9,15 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "eject": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@react-three/drei": "^9.111.5",
     "@react-three/fiber": "^8.17.6",
     "@types/three": "^0.168.0",
+    "git": "^0.1.5",
     "install": "^0.13.0",
     "missing": "^0.0.1",
     "react": "^18.3.1",
